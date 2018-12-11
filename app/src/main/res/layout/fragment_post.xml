@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="psi1819.udc.es.lab05golpe.PostFragm"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Username: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_username"
+            android:text="car"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Passwd: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_passwd"
+            android:text="vaz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="IP: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_ip"
+            android:text="http://gac.udc.es/~cvazquez/psi/param.php"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/but_post"
+        android:text="Send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

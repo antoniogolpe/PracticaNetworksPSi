@@ -1,0 +1,2 @@
+Falta por implementar el bucle en el apartado 1.
+Falta por implementar el apartado 5.

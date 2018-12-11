@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="EchoFragm"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Name: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_name"
+            android:text="@string/client_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Host: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_host"
+            android:text="193.144.50.23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Port: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_port"
+            android:text="12321"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Message: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_msg"
+            android:text="Hello world"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/but_send"
+            android:text="Send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/but_cancel"
+            android:text="Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/but_remove_echo"
+            android:text="Remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
